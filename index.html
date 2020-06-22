@@ -263,6 +263,53 @@
     </div>
   </section>
 
+  <footer id="main-footer" class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-4">
+          <h3>Looplap</h3>
+          <p>Todos os direitos reservados. &copy; <span id="year"></span></p>
+          <button
+          class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#contact-modal">Fale conosco
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CONTACT MODAL -->
+  <div class="modal fade text-dark" id="contact-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5>Fale conosco</h5>
+          <button class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="name"></label>
+              <input type="text" placeholder="Seu nome" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label for="email"></label>
+              <input type="text" placeholder="Seu email" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label for="mensagem"></label>
+              <textarea placeholder="Sua mensagem..." class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary btn-block" data-dismiss="modal">Enviar mensagem</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
